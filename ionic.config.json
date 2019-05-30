@@ -1,0 +1,7 @@
+{
+  "name": "projet-btc",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
