@@ -1,0 +1,42 @@
+<ion-content id="real-bg">
+  <div class="ion-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+            <h1>Convertisseur de monnaie</h1>
+        </div>
+      </div>
+    </div>
+          <form>
+            <div class="form-row">
+              <div class="col-md-12 mb-3 text-center">
+                <label for="euro">Montant en EUR</label><br>
+                <input type="number" name="euro" id="euro" (keyup)="convertEuro()" [(ngModel)]="euro">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="col-md-12 mb-3 text-center">
+                  <label for="btc">Montant en BTC</label> <br>           
+                  <input type="number" name="btc" id="btc" [(ngModel)]="btc" (keyup)="convertBtc()">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="col-md-12 mb-3 text-center">
+                <label for="eth">Montant en ETH</label><br>
+                <input type="number" name="eth" id="eth" [(ngModel)]="eth" (keyup)="convertEth()">
+              </div>
+            </div>
+          </form>
+
+          <div class="container mt-3">
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+                <a class="thebutton" href="https://dl3c01n.github.io"><i class="fab fa-github fa-2x"></i></a>
+                <a class="thebutton" href="https://www.linkedin.com/in/dlecoin/"><i class="fab fa-linkedin fa-2x"></i></a>
+              </div>
+            
+            </div>
+          </div>
+          </div>
+          
+</ion-content>
