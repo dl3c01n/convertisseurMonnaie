@@ -2,6 +2,7 @@
 
 ### How to run it locally (web browser) ?
 
+##### Assuming that you already have installed nodejs and npm
 
 1. > Open a terminal (cmd for windows, terminal for linux)
 2. > npm i -g ionic cordova
